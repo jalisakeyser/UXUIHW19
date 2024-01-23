@@ -1,13 +1,14 @@
 
+
 console.log("file is loaded correctly!");
 
-// $(document).ready(function(){
-//     $("p").hover(function(){
-//       $(this).css("background-color", "yellow");
-//       }, function(){
-//       $(this).css("background-color", "pink");
-//     });
-//   });
+$(document).ready(function(){
+    $("p").hover(function(){
+      $(this).css("background-color", "#FF340A");
+     }, function(){
+      $(this).css("background-color", "#979797");
+    });
+   });
 
 $(document).ready(function(){
     $("button").hover(function(){
